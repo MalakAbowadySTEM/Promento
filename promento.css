@@ -1,0 +1,110 @@
+/* General Body Styling */
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #1e1e1e;
+    color: #dcdcdc;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Heading Styling */
+  h1, h2 {
+    color: #61dafb;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  h1 {
+    font-size: 3rem;
+  }
+  
+  h2 {
+    font-size: 2rem;
+  }
+  
+
+  /* Paragraphs and Lists */
+  p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin: 20px;
+  }
+  
+  ul {
+    margin-left: 40px;
+    list-style-type: square;
+  }
+  
+  strong {
+    color: #ffcc00;
+  }
+  
+  /* Links */
+  a {
+    color: #61dafb;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Video Centering */
+  video {
+    display: block;
+    margin: 30px auto;
+    border: 2px solid #61dafb;
+    border-radius: 10px;
+  }
+  
+  /* Button Styling */
+  button.btn {
+    background-color: #282c34;
+    color: #61dafb;
+    padding: 15px 25px;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    border: 2px solid #61dafb;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  
+  button.btn:hover {
+    background-color: #61dafb;
+    color: #282c34;
+  }
+  
+  /* Container Styling */
+  .container {
+    width: 30%;
+    margin: 30px auto;
+    background-color: #282c34;
+    border: 1px solid #61dafb;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .container img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Responsive Design */
+  @media screen and (max-width: 768px) {
+    .container {
+      width: 80%;
+    }
+  
+    video {
+      width: 90%;
+    }
+  
+    button.btn {
+      padding: 10px 15px;
+      font-size: 1rem;
+    }
+}
